@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog de Café</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontawesome/css/all.css">
+    <link rel="stylesheet" href="css/fontawesome/css/fontawesome.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <header class="site-header" id="header">
+        <div class="contenedor">
+            <div class="barra">
+                <a href="/">
+                    <h1 class="no-margin">Blog<span>DeCafé</span></h1>
+                </a>
+                <div class="menu-toggle" id="menu-toggle">
+                    <div class="boton-menu" id="boton-menu">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                </div>
+                <nav class="navegacion hide" id="navegacion">
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="cursos.html">Cursos</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+            </div><!--barra-->
+
+            <div class="texto-header">
+                <h2 class="no-margin">Blog de Café con consejos y Cursos</h2>
+                <p class="no-margin">Aprende de los expertos con las mejores recetas y los mejores consejos</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="contenedor">
+        <h2 class="centrar-texto">Contacto</h2>
+
+        <div class="grid grid-centrar">
+            <div class="columnas-12">
+                <img src="img/contacto.jpg" alt="Imagen Contacto">
+            </div>
+            <div class="columnas-10">
+                <form action="" class="form-contacto">
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" placeholder="Ingrese su nombre...">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Ingrese su correo...">
+                    </div>
+                    <div class="form-group">
+                        <label for="nombre">Mensaje</label>
+                        <textarea id="mensaje"></textarea>
+                    </div>
+                    <div class="form-group enviar">
+                        <input type="submit" class="boton boton-primario">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="contenedor">
+            <div class="barra">
+                <p class="no-margin">Blog<span>DeCafé</span></p>
+                <nav class="navegacion">
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="cursos.html">Cursos</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+            </div><!--barra-->
+        </div>
+    </footer>
+    <div class="volver">
+        <a href="#header"><i class="fas fa-arrow-up"></i></a>
+    </div>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
